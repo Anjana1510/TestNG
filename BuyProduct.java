@@ -79,7 +79,6 @@ public class BuyProduct {
         driver.findElement(By.className("new-address-next-step-button")).click();
     }
 
-
     @Test(dependsOnMethods = {"checkoutForm"})
     void shippingMethod(){
         driver.findElement(By.id("shippingoption_0")).click();
